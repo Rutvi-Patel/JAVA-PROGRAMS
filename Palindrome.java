@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Palindrome {
 	public static void main(String[] args) {
 		Scanner scnr = new Scanner(System.in);
+		System.out.println("Type in a word");
 		String word = scnr.next();
 		if (ispal(word)){
 			   System.out.println("Palindrome");
